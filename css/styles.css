@@ -1,0 +1,154 @@
+:root {
+    --text-color: #757575;
+    --headlines-color: #212121;
+    --footer-text-color: color: rgba(255, 255, 255, 0.6);
+    --acsent-color: #2196F3;
+}
+
+body {
+    font-family: 'Roboto', tahoma,
+        sans-serif;
+}
+
+/*________________  general classes _______________ */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/*_______________________ HEDER_______________________ */
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--acsent-color);
+}
+
+.logo span {
+color: var(--headlines-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--headlines-color)
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--acsent-color); 
+}
+.header-contact-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-contact-item:hover,
+.header-contact-item:focus {
+    color: var(--acsent-color);
+}
+/*_______________________ MAIN_______________________ */
+/*_______________________ MAIN HERO__________________ */
+.hero {
+    background-color: #2F303A;
+}
+.hero-top-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36; 
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero-link {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+/*_______________________ MAIN uniqueness__________________ */
+.uniqueness-top-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--headlines-color);
+}
+.uniqueness-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+/*_______________________ MAIN WE DO __________________ */
+.we-do-top-text,
+.team-top-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*_______________________ MAIN team__________________ */
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;      
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headlines-color);
+}
+.team-profeshen {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-color);
+}
+/*_______________________ FOOTER__________________ */
+
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-item {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
